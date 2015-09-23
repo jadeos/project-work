@@ -1,0 +1,130 @@
+	body{
+		background-color:grey;
+	}
+	h1
+	{
+		text-weight:bold;
+		text-align:center;
+		color:white;
+		margin-left:500px;
+		margin-right:500px;
+	}
+	canvas{
+		color:white;
+		background-color:white;
+		margin-left:500px;
+		margin-right:500px;
+	}
+
+	#CreateCanvas{
+		position:absolute;
+	}
+	#CreateCanvas p
+	{
+		position:relative;
+		top:200px;
+	}
+	#barCanvas{
+		position:absolute;
+		z-index:1;
+		opacity:1;
+		margin-left:505px;
+		margin-right:495px;
+		overflow:hidden;
+		border-left:4px solid black;
+		border-bottom:4px solid black;
+	}
+	#myCanvas{
+		position:absolute;
+		
+		background-color: transparent;
+		opacity:1;
+		z-index:1;
+		
+	}
+	
+	p
+	{
+		margin-right:500px;
+		margin-left:500px;
+		color:white;
+		font-weight:bold;
+		position:relative;
+	}
+	
+	p button 
+	{
+		border-radius:10px;
+		height:25px;
+		
+	}
+	
+	#screenshots{
+		background-color:#009933;
+		margin-top:350px;
+		margin-left:500px;
+		margin-right:500px;
+		height:200px;
+		width:450px;
+		overflow:scroll;
+		overflow-y:hidden;
+		border: 1px solid black;
+		display: block;
+		position: relative;
+		white-space:nowrap;
+	
+	}
+
+	#setvalues
+	{
+		margin-left:520px;
+		margin-right:480px;
+		top:20px;
+		display: none;
+		height:400px;
+		width:420px;
+		background-color:white;
+		border:2px solid black;
+		position:relative;
+		z-index:1;
+		visibility:hidden;
+		overflow:hidden;
+		
+	}
+	#setvalues ul
+	{
+		text-decoration:none;
+		
+		
+	}
+	#setvalues  ul li 
+	{
+		padding-left:70px;
+		list-style-type:none;
+
+	}
+	#setvalues button {
+		margin-left:5px;
+		position:relative;
+		right:-120px;
+	}
+	 h2
+	{
+		color:black;
+		margin-left:150px;
+		text-align:centre;	
+	}
+	#newscreenshot
+	{
+	background-color:white;
+	position:relative;
+	}
+	#link
+	{
+	position:absolute;
+	}
+	a 
+	{
+		text-decoration:none;
+	}
+	

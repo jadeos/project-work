@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+<title> Index </title>
+<link rel="stylesheet" type="text/css" href="index.css">
+<script src="index.js"></script>
+</head>
+<body>
+<h1>Charts</h1>
+<div id = "CreateCanvas">
+	<canvas id ="barCanvas" width ="450" height="200"></canvas>
+	<canvas id ="myCanvas" width ="460" height="210"> </canvas>
+	<p>Stroke:
+		<select id = "thickness" >
+			<option value = 1 selected>Thin</option>
+			<option value = 3>Medium</option>
+			<option value = 5>Thick</option>
+		</select>
+			
+		<select id = "colour" >
+			<option selected>Black</option>
+			<option>Green</option>
+			<option>Brown</option>
+			<option>Red</option>
+			<option>Yellow</option>
+			<option>Blue</option>
+			<option>Orange</option>
+		</select>
+
+		<button id ="clear">Clear</button>
+	</p>
+	<p> 
+	<button id ="changeValues">Change Values </button>
+		<button id = "snapshot">Take snapshot</button>
+	</p>
+	<p> 
+	<button id="deleteRoll">Delete Roll</button>
+	</p>
+</div>
+<!--Create the div for the setting of values and the sliders-->
+<div id ="setvalues">
+		<h2> Set Values </h2>
+		<ul>
+		<li >Mons<input id ="Monday" type = "range"  value = "0" /><span id ="mon">0</span> %</br></li>
+		<li>Tues<input id ="Tuesday" type = "range" value = "0"/><span id ="tue">0</span> %<br/></li>
+		<li>Wed<input id ="Wednesday" type = "range" value = "0"/><span id ="wed">0</span> %</br></li>
+		<li>Thurs<input id ="Thursday" type = "range" value = "0" /><span id ="thurs">0</span> %</br></li>
+		<li>Fri<input id ="Friday" type = "range" value = "0" /><span id ="fri">0</span> %</br></li>
+		<li>Sat<input id ="Saturday" type = "range" value = "0" /><span id ="sat">0</span> %</br></li>
+		<li>Sun<input id ="Sunday" type = "range" value = "0" /><span id ="sun">0</span> % </br></li>
+		</ul>
+		</br><br/>
+	<button id ="save"> <a href ="# "rel ="showPanel">Save </a> </button>
+	<button id = "close"><a href ="# "rel ="showPanel">close </a> </button>
+</div>
+<!-- This div will appear when a screenshot has been taken-->
+<div id = "screenshots">
+	<a id = "link" >
+		<img id = "newscreenshot">
+			<a href = "#" >   </a> 
+		</img>
+	</a>
+</div>
+</body>
+</html>

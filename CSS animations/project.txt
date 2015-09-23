@@ -1,0 +1,36 @@
+PopDown Menu Animation Calculation:
+
+1.to get the position of the div, I found out where it started (at 0 px).
+2.i used negitive margins to position the div up ward above the page.
+	i calculated the position of the margin by using the line as a guide and estimated where to stop, i roughly guessed -100px at first, realising i couldnt see the menu, then i went down by ten(-90px)up by 5 (-95px)and up to (-97px)and up by 1 (-98px). 
+	When i went down by ten i could see the menu but too much of it, i kept going up in my guessing until i could see the line. to test i went to -97px, where i could see the line and when i went to -98px i couldnt see the line.
+
+	
+	
+Gallry Image Menu Height:
+	1. I got the width and height from the image width and height
+	2.At first i positioned the panel by using the same margin as the image margin, then to get the panel inline with the image itself, i increased my margin to 27%. At first i tried 25, then 30, then 27 percent.
+		This way it looks as if the div can be positioned over the images. 
+	3. find out where each image starts and use that as a starting point for the amination, i guessed when the animation ended. 
+
+	
+	
+ArtWork Urls:
+like icon button 
+	thumbs down icon : http://findicons.com/icon/567685/thumb_down?id=568848
+	thums up icon : http://findicons.com/icon/562516/like
+about us page images urls:
+	sea of tranquility :https://www.flickr.com/photos/adrian_kingsley-hughes/14060744823/	creative commons license
+	towards the sea : https://www.flickr.com/photos/adrian_valentin_murphy/10949780864/		creative commons license
+	the other side of Tanjung Aan beach, Lombok.: https://www.flickr.com/photos/sakharnair/8584211015/ creative commons license 
+	Mollymook beach sunrise: https://www.flickr.com/photos/stage88/3235750173/				Creative Commons License
+galley page urls
+	 black and white buffelo:  https://www.flickr.com/photos/111714485@N04/16424887099/in/photolist-r2pQGB-99Nfzx-9dLP6p-9e7VCD-oRQHod-7iowhD-oSnFbY-5YGMXe-93DWBH-7sQHPv-9c8XZ8-8NeFst-f6pNw6-aE3SF-9CmKKh-9CmKpq-qMQetJ-8ECdCw-9CmLwb-4GcjS4-aCC1YC-gPksKD-9dLNMz-ruPei7-9eR1J5-mjwzE-4zQT1S-9ec4Ua-4xxTBn-5mu9sV-9dMn4m-4Awbey-f5vjYQ-f6pLiP-8u6f4n-oRPxvR-4jvgWh-d7VfCf-f6pHYa-8mda3Y-oRQvJS-mgSFmt-9pVimZ-f6E6WC-9CiRuv-8tyMsX-4wNJSi-p7i81f-oDkw2d-9dLUUD
+	 ocean Image : https://www.flickr.com/photos/casper_chole/4470881932/
+	 boat Image : https://www.flickr.com/photos/chitrasudar/2841689843/
+	 buy icon : http://findicons.com/icon/86209/add?id=86209
+	 email icon: http://findicons.com/icon/203073/mail?id=204164
+	 tweet icon : http://findicons.com/icon/197964/tweet_deck?id=197964
+	 
+
+

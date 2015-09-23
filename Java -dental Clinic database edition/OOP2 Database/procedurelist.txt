@@ -1,0 +1,11 @@
+Root Canal = €350
+Filling  = €500
+Cleaning  = €150
+Extraction = €75
+Whitening = €250
+Brace Fitting = €700
+Brace Cleaning = €350
+Brace Removal = €400
+Check-Up = €50
+Surgery = €600
+
